@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A digital portfolio showcasing selected work, experience, and ways to get in touch.">
+	<title>Lee Adrian Fajarillo — Designer & Developer</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<a class="skip-link" href="#main-content">Skip to main content</a>
+	<header class="site-header">
+		<nav class="nav container" aria-label="Main navigation">
+			<a class="brand" href="#home" aria-label="Lee Adrian Fajarillo, home"><span class="brand-mark">LF</span><span>Lee Adrian Fajarillo</span></a>
+			<ul class="nav-links" id="primary-navigation">
+				<li><a href="#work">Work</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<div class="nav-actions">
+				<button class="icon-button" type="button" data-theme-toggle aria-label="Switch to dark theme" title="Toggle theme"><span aria-hidden="true">☾</span></button>
+				<a class="nav-contact" href="#contact" aria-label="Go to the contact section">Let’s talk <span aria-hidden="true">↗</span></a>
+				<button class="menu-button" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Open navigation"><span aria-hidden="true">☰</span></button>
+			</div>
+		</nav>
+	</header>
+
+	<main id="main-content">
+		<section class="hero container" id="home" aria-labelledby="hero-title">
+			<div class="hero-copy-column">
+				<p class="eyebrow"><span>Available for selected projects</span></p>
+				<h1 id="hero-title">Building digital things with <em>purpose.</em></h1>
+				<p class="hero-copy">I’m Lee Adrian, a multidisciplinary creative turning thoughtful ideas into useful, memorable digital experiences.</p>
+				<div class="hero-actions">
+					<a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+					<a class="button button-outline" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+				</div>
+			</div>
+			<figure class="hero-visual">
+				<div class="portrait-card">
+					<span class="portrait-index" aria-hidden="true">01 / 04</span>
+					<img class="portrait-photo" src="professional%20picture.jpg" alt="Lee Adrian Fajarillo wearing professional graduation attire">
+					<p>Designer<br>Developer<br>Image maker</p>
+				</div>
+				<figcaption class="visually-hidden">Portrait of Lee Adrian Fajarillo</figcaption>
+			</figure>
+		</section>
+
+		<section class="section" id="work" aria-labelledby="work-title">
+			<div class="container">
+				<div class="section-heading">
+					<div><p class="eyebrow"><span>Selected projects · 2022—2025</span></p><h2 id="work-title">A little of what I do.</h2></div>
+					<p class="section-intro">Identity, digital products, and experiences made for people and purpose.</p>
+				</div>
+				<div class="project-filters" role="group" aria-label="Filter projects">
+					<button class="filter-button" type="button" data-filter="all" aria-pressed="true">All work</button>
+					<button class="filter-button" type="button" data-filter="design" aria-pressed="false">Design</button>
+					<button class="filter-button" type="button" data-filter="development" aria-pressed="false">Development</button>
+				</div>
+				<div class="project-grid" data-project-grid>
+					<article class="project-card" data-category="design">
+						<a href="#contact" aria-label="Learn more about Northstar identity">
+							<div class="project-image" style="--project-bg:#e8eddf" role="img" aria-label="Northstar Studio brand identity artwork"><span aria-hidden="true">NORTHSTAR</span></div>
+							<div class="project-content"><div class="project-meta"><span>Brand identity</span><span>2025</span></div><h3>Northstar Studio</h3><p>A warm, flexible identity for a new generation of creative founders.</p></div>
+						</a>
+					</article>
+					<article class="project-card" data-category="development">
+						<a href="#contact" aria-label="Learn more about Fieldnotes">
+							<div class="project-image" style="--project-bg:#dce7ed" role="img" aria-label="Fieldnotes product interface artwork"><span aria-hidden="true">fieldnotes.</span></div>
+							<div class="project-content"><div class="project-meta"><span>Product design · Web</span><span>2024</span></div><h3>Fieldnotes</h3><p>A calmer way for curious people to collect and share what they learn.</p></div>
+						</a>
+					</article>
+					<article class="project-card" data-category="development">
+						<a href="#contact" aria-label="Learn more about Good Habit">
+							<div class="project-image" style="--project-bg:#f0e2d5" role="img" aria-label="Good Habit sustainable storefront artwork"><span aria-hidden="true">good habit</span></div>
+							<div class="project-content"><div class="project-meta"><span>Digital experience</span><span>2024</span></div><h3>Good Habit</h3><p>An inviting, accessible storefront for everyday sustainable essentials.</p></div>
+						</a>
+					</article>
+					<article class="project-card" data-category="design">
+						<a href="#contact" aria-label="Learn more about Common Ground">
+							<div class="project-image" style="--project-bg:#e8e1ef" role="img" aria-label="Common Ground community campaign artwork"><span aria-hidden="true">COMMON<br>GROUND</span></div>
+							<div class="project-content"><div class="project-meta"><span>Campaign · Art direction</span><span>2023</span></div><h3>Common Ground</h3><p>A community-led campaign bringing neighbors together around local food.</p></div>
+						</a>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" id="about" aria-labelledby="about-title">
+			<div class="container about-grid">
+				<div><p class="eyebrow"><span>A bit about me</span></p><h2 id="about-title">Curiosity is part of the process.</h2></div>
+				<div class="about-copy">
+					<p>I partner with people who care about what they put into the world. From the first sketch to the final details, I bring clarity, craft, and a collaborative spirit to every project.</p>
+					<p>When I’m not making things for the web, you’ll find me exploring a new trail, taking too many photos, or hunting down a great cup of coffee.</p>
+					<ul class="skill-list" aria-label="Skills"><li>Visual design</li><li>UI/UX</li><li>Frontend</li><li>Creative direction</li><li>Prototyping</li></ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" id="contact" aria-labelledby="contact-title">
+			<div class="container">
+				<div class="contact-panel">
+					<div>
+						<p class="eyebrow"><span>Have a good one in mind?</span></p>
+						<h2 id="contact-title">Let’s make it happen.</h2>
+						<p>Tell me a little about what you’re working on. This demo form is ready to connect to your preferred form service.</p>
+						<a href="mailto:hello@example.com" class="button button-outline" aria-label="Email Lee Adrian Fajarillo at hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+					</div>
+					<form class="contact-form" data-contact-form aria-label="Project inquiry form">
+						<label for="name">Your name<input id="name" name="name" autocomplete="name" placeholder="Jane Smith" required></label>
+						<label for="email">Email address<input id="email" name="email" type="email" autocomplete="email" placeholder="jane@example.com" required></label>
+						<label for="message">A little about your project<textarea id="message" name="message" placeholder="What would you like to make?" required></textarea></label>
+						<button class="button button-primary" type="submit">Send a message <span aria-hidden="true">↗</span></button>
+						<p class="form-status" role="status" aria-live="polite" aria-atomic="true"></p>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="container">
+		<span>© <span data-year></span> Lee Adrian Fajarillo. Made with intention.</span>
+		<nav class="social-links" aria-label="Social links"><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://www.behance.net/" target="_blank" rel="noreferrer">Behance ↗</a></nav>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
